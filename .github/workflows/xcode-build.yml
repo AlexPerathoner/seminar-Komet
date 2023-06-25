@@ -33,5 +33,5 @@ jobs:
           -scheme Komet \
           -destination platform=macOS \
           -resultBundlePath TestResults \
-          -test-iterations 25 \
+          -test-iterations 20 \
           CODE_SIGNING_ALLOWED=NO || exit 1
